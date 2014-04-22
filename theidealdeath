@@ -1,0 +1,110 @@
+<! doctype html /><html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <title>Portfolio</title>
+ <link rel="stylesheet" href="http://www.tcnj.edu/~foxk4/stylesheet6.css">
+ 
+</head>
+
+   <body>
+    <div id="wrapper">
+        <aside id="logo"></aside>
+        <nav>
+           <div id='cssmenu'>
+                <ul>
+                    <li class='active'><a href='http://kathleenfox.github.io/Final'><span>Home</span></a>
+                    </li>
+                    <li class='has-sub'><a href='http://kathleenfox.github.io/Final/portfolio'><span>Portfolio</span></a>
+
+                        <ul>
+                            <li class='has-sub'><a href='http://kathleenfox.github.io/Final/writing'><span>Writing</span></a>
+
+                                <ul>
+                                    <li><a href='http://kathleenfox.github.io/Final/poetry'><span>Poetry</span></a>
+                                    </li>
+                                    <li class='last'><a href='http://kathleenfox.github.i/Final/fiction'><span>Fiction</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class='has-sub'><a href='http://kathleenfox.github.io/Final/multimedia'><span>Multimedia</span></a>
+
+                                <ul>
+                                    <li><a href='http://kathleenfox.github.io/Final/video'><span>Video</span></a>
+                                    </li>
+                                    <li class='last'><a href='http://kathleenfox.github.io/Final/photoshop'><span>Photoshop</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='has-sub'><a href='https://www.tcnj.edu/~foxk4/shop.html'><span>Shop</span></a>
+
+                        <ul>
+                            <li><a href='https://www.tcnj.edu/~foxk4/comission.html'><span>Commission</span></a>
+                            </li>
+                            <li class='last'><a href='https://www.tcnj.edu/~foxk4/Redbubble.html'><span>Redbubble</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='has-sub last'><a href='#'><span>Contact</span></a>
+
+                        <ul>
+                            <li><a href='https://www.tcnj.edu/~foxk4/contactme.html'><span>Contact Me</span></a>
+                            </li>
+                            <li class='last'><a href='https://www.tcnj.edu/~foxk4/resume.html'><span>Resume</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>                   <header>
+                    <h1> The Ideal Death  </h1>
+            <div id="slider"> 
+                <div id= "paragraph">
+                  
+                    <h2> Music boxes are cursed portals into a forgotten land. <br> </br>
+The devious clanking melody that strums the air<br> </br>
+when the deviant box is opened is the only remains<br> </br>
+of sound after the land’s dubious destruction. <br> </br>
+I clutched this cursed portal in my callous hands,<br> </br>
+ripping the lid opened and close as if to simultaneously <br> </br>
+disrupt and continue the trembling tune.<br> </br>
+I was riding in the passenger seat of my uncle’s hearse,<br> </br>
+not only because there was no room in the limo, <br> </br>
+but because I had always wanted to ride in the corpse mobile<br> </br>
+while alive. “Could you stop with the box.” Rick,<br> </br>
+the death cabby said to me frigidly, taking his eyes off<br> </br>
+the road just long enough for him to not notice the car<br> </br>
+in front of us stopping short. The music box cracked.<br> </br>
+Shards broke off from the mirror in the music box<br> </br>
+that had more dust than glass. They hammered <br> </br>
+themselves into my eye and I saw this lost world.<br> </br>
+Rustic robotic trees stood stark against the gold wind,<br> </br>
+and a boy, who I named Derek, had clocks for corneas.<br> </br>
+He screamed as he watched the blood drip from<br> </br>
+my eye like time drips from an hourglass, <br> </br>
+and I imagined that’s what his eyes would literally look<br> </br> 
+like should they start bleeding. I cried out in horror<br> </br>
+but the cry was just that melancholic tune from<br> </br>
+the shattered music box whose ancient wood stained<br> </br>
+my skin with it’s texture like diseased ink. <br> </br>
+No words, just song. I felt no pain nor pulse.<br> </br>
+The box was truly a portal to another world, <br> </br>
+but I began to wonder if it was indeed a forgotten one.<br> </br>
+They say Hell is cold. <br> </br>
+ </h2>
+                    
+                  
+                
+                </div>
+     
+        </div>
+  
+
+                    
+        
+        </header>
+        
+        </body>
+        </html>
