@@ -1,0 +1,135 @@
+<! doctype html />
+<html><head> <title>Portfolio</title>
+ <link rel="stylesheet" href="http://www.tcnj.edu/~foxk4/style9.css">
+ 
+</head>
+
+
+<body>
+     <div id="container">
+   
+        <aside id="logo"></aside>
+        <nav>
+           <div id='cssmenu'>
+                <ul>
+                    <li class='active'><a href='http://kathleenfox.github.io/Final'><span>Home</span></a>
+                    </li>
+                    <li class='has-sub'><a href='http://kathleenfox.github.io/Final/portfolio'><span>Portfolio</span></a>
+
+                        <ul>
+                            <li class='has-sub'><a href='http://kathleenfox.github.io/Final/writing'><span>Writing</span></a>
+
+                                <ul>
+                                    <li><a href='http://kathleenfox.github.io/Final/poetry'><span>Poetry</span></a>
+                                    </li>
+                                    <li class='last'><a href='http://kathleenfox.github.io/Final/fiction'><span>Fiction</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class='has-sub'><a href='http://kathleenfox.github.io/Final/multimedia'><span>Multimedia</span></a>
+
+                                <ul>
+                                    <li><a href='http://kathleenfox.github.io/Final/video'><span>Video</span></a>
+                                    </li>
+                                    <li class='last'><a href='http://kathleenfox.github.io/Final/photoshop'><span>Photoshop</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='has-sub'><a href='http://kathleenfox.github.io/Final/shop'><span>Shop</span></a>
+
+                        <ul>
+                            <li><a href='http://kathleenfox.github.io/Final/commission'><span>Commission</span></a>
+                            </li>
+<li class='last'><a href='http://kathleenfox.github.io/Final/shop'><span>Redbubble</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='has-sub last'><a href='http://kathleenfox.github.io/Final/contact'><span>Contact</span></a>
+
+                        <ul>
+                            <li><a href='http://kathleenfox.github.io/Final/contact'><span>Contact Me</span></a>
+                            </li>
+<li class='last'><a href='http://kathleenfox.github.io/Final/resume'><span>Resume</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>                <header>
+                    <h1>Contact Me  </h1>
+            <div id="slider"> 
+             
+                  
+
+
+<h2>
+	<div class="row">
+		<article class="col-md-12">
+			<p class="message"></p>
+			<form action="http://www.tcnj.edu/~foxk4/code.php">
+				<div class="form-group">
+					<label>From</label>
+                    <input class="form-control" type="text" name="from"  placeholder="Enter email"></input>
+				</div>
+				<div class="form-group">
+					<label>Subject</label>
+                    <input class="form-control" type="text" name="subject"  placeholder="Enter Subject"></input>
+				</div>
+				<div class="form-group">
+					<label>Message</label>
+					<textarea class="form-control" name="message"></textarea>
+				</div>
+                    <input type="submit" class="btn btn-default" name="submit" value="Submit"></input>
+			</form>
+
+		</article>
+	</div>
+
+	<div class="row">
+		<footer></footer>
+	</div>
+
+        </h2>
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+<script>
+
+/* jsonp form to email function */
+$('form').submit(function() {
+  var url = $(this).attr("action");
+  var params = $(this).serialize();
+  
+  $.getJSON(url + '?' + params + "&callback=?", function(data) {
+   
+	switch(data[0].status){
+		case 'success':
+			$('.message').addClass("text-success").html('Thank you, <strong>' + data[0].from + '</strong>, for sending us feedback!');
+			$('form')[0].reset();
+			break;
+		case 'invalid email':
+			$('.message').removeClass("text-success").addClass("text-danger").html('Please provide a valid email address');
+			break;
+		case 'failed to send':
+			$('.message').removeClass("text-success").addClass("text-danger").html('Failed to send email.');
+			break;
+	}
+  });
+  return false;
+});
+
+</script>
+
+                </div>
+                    
+        
+        </header>
+    </div>
+    </body>
+
+
+</html>
